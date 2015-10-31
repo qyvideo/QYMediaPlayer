@@ -1,0 +1,6 @@
+framework module QYMediaPlayer {
+  umbrella header "QYMediaPlayer.h"
+
+  export *
+  module * { export * }
+}
