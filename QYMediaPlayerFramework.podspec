@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   DESC
   spec.platform     = :ios, '7.0'
   spec.requires_arc = true
-  spec.ios.library = 'z', 'iconv', 'stdc++.6'
+  spec.ios.library = 'z', 'bz2', 'stdc++.6'
   spec.source = { :git => 'https://github.com/qyvideo/QYMediaPlayer.git', :tag => '8.3.1'}
   spec.preserve_paths      = 'QYMediaPlayer.framework'
   spec.public_header_files = 'QYMediaPlayer.framework/Headers'
